@@ -1,0 +1,3 @@
+# Optional if you want to swap the Python converter to a pandas-based workflow.
+# The checked-in script currently uses only the standard library.
+pandas>=2.0.0

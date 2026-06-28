@@ -1,0 +1,10 @@
+[
+  {
+    "orderId": 1001,
+    "customer": "Alice",
+    "items": [
+      { "product": "Pen", "qty": 2 },
+      { "product": "Notebook", "qty": 1 }
+    ]
+  }
+]

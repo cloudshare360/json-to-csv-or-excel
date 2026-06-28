@@ -1,0 +1,10 @@
+{
+  "name": "json-excel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "convert:npm": "node scripts/json-to-csv.mjs",
+    "convert:py": "python scripts/json-to-csv.py"
+  }
+}
