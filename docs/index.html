@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JSON to CSV or Excel</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f2ea;
+      --card: #fffaf2;
+      --text: #1f2937;
+      --muted: #5b6472;
+      --accent: #0f766e;
+      --accent-2: #7c2d12;
+      --border: rgba(31, 41, 55, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(15, 118, 110, 0.12), transparent 30%),
+        radial-gradient(circle at bottom right, rgba(124, 45, 18, 0.12), transparent 28%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 56px 20px 72px;
+    }
+    .hero {
+      background: linear-gradient(135deg, rgba(255,255,255,0.86), rgba(255,250,242,0.92));
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 32px;
+      box-shadow: 0 18px 50px rgba(31, 41, 55, 0.08);
+      backdrop-filter: blur(8px);
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      line-height: 1.05;
+    }
+    .lede {
+      margin: 0 0 24px;
+      max-width: 70ch;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+    .grid {
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      margin-top: 24px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+    }
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 1.05rem;
+    }
+    ul {
+      margin: 12px 0 0;
+      padding-left: 18px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration-thickness: 2px;
+      text-underline-offset: 3px;
+    }
+    .note {
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    code {
+      background: rgba(31, 41, 55, 0.06);
+      padding: 0.15rem 0.35rem;
+      border-radius: 6px;
+    }
+    .tag {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(15, 118, 110, 0.1);
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 0.86rem;
+      letter-spacing: 0.02em;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <span class="tag">GitHub Pages site</span>
+      <h1>JSON to CSV or Excel</h1>
+      <p class="lede">
+        This site documents common JSON shapes and the practical ways to convert them into CSV for Excel.
+        Use the examples to choose the right conversion strategy for your data.
+      </p>
+
+      <div class="grid">
+        <article class="card">
+          <h2>Start Here</h2>
+          <ul>
+            <li><a href="https://github.com/cloudshare360/json-to-csv-or-excel/blob/main/README.md">Repository README</a></li>
+            <li><a href="https://github.com/cloudshare360/json-to-csv-or-excel/blob/main/NON_TECHNICAL_GUIDE.md">Non-technical guide</a></li>
+            <li><a href="https://github.com/cloudshare360/json-to-csv-or-excel/blob/main/RUNBOOK.md">Runbook</a></li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Patterns</h2>
+          <ul>
+            <li><a href="https://github.com/cloudshare360/json-to-csv-or-excel/blob/main/01-flat-objects/README.md">Flat objects</a></li>
+            <li><a href="https://github.com/cloudshare360/json-to-csv-or-excel/blob/main/02-nested-object-fields/README.md">Nested object fields</a></li>
+            <li><a href="https://github.com/cloudshare360/json-to-csv-or-excel/blob/main/03-array-fields/README.md">Array fields</a></li>
+            <li><a href="https://github.com/cloudshare360/json-to-csv-or-excel/blob/main/04-repeating-child-records/README.md">Repeating child records</a></li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Tools</h2>
+          <ul>
+            <li><a href="https://github.com/cloudshare360/json-to-csv-or-excel/blob/main/scripts/json-to-csv.mjs">Node converter</a></li>
+            <li><a href="https://github.com/cloudshare360/json-to-csv-or-excel/blob/main/scripts/json-to-csv.py">Python converter</a></li>
+            <li><a href="https://github.com/cloudshare360/json-to-csv-or-excel/blob/main/.devcontainer/devcontainer.json">Dev container</a></li>
+          </ul>
+        </article>
+      </div>
+
+      <p class="note">
+        The site is intentionally static. If you only see a blank page, refresh after the next GitHub Pages deployment completes.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
