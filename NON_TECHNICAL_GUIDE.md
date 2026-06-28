@@ -14,6 +14,7 @@ CSV files open directly in Excel and look like a table with rows and columns.
 - This project folder
 - Excel, or another spreadsheet app that can open CSV files
 - Optional: VS Code with the devcontainer feature if you want a ready-made environment
+- Optional: a local `.env` file if you want to store your GitHub username and token
 
 ## Choose One Method
 
@@ -88,3 +89,4 @@ Use this if VS Code offers the devcontainer option and you want everything prein
 - If the file does not open, check that you selected the right input file.
 - If the CSV looks strange, try a different sample folder that matches your JSON shape.
 - If Excel asks about file format, choose CSV.
+- If you are preparing to push to GitHub, put your username and PAT in `.env` and keep the token private.

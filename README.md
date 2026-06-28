@@ -59,3 +59,14 @@ See [NON_TECHNICAL_GUIDE.md](C:/Users/sri/adhoc-tasks/json-excel/NON_TECHNICAL_G
 ## Dev Container
 
 This repo includes [`.devcontainer/devcontainer.json`](C:/Users/sri/adhoc-tasks/json-excel/.devcontainer/devcontainer.json). In VS Code, open the folder and use `Reopen in Container` to get Node and Python ready to use.
+
+## Environment File
+
+Create a local [`.env`](C:/Users/sri/adhoc-tasks/json-excel/.env) file and place your GitHub username and PAT there if you want to keep them out of command history.
+
+Example:
+
+```env
+GITHUB_USERNAME=cloudshare360
+GITHUB_PAT=your-personal-access-token-here
+```
