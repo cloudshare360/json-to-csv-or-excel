@@ -35,6 +35,7 @@ The approach subfolders use this naming pattern:
 
 - If you want the shortest path, open the sample JSON file, run one of the commands below, and then open the CSV in Excel.
 - If you are using VS Code, you can also use a JSON-to-CSV extension and export the result manually.
+- If you want a ready-made environment, open the folder in VS Code and choose `Reopen in Container`.
 
 Command options:
 
@@ -54,3 +55,7 @@ The Python converter in this repo uses the standard library, so no extra install
 ## Non-Technical Guide
 
 See [NON_TECHNICAL_GUIDE.md](C:/Users/sri/adhoc-tasks/json-excel/NON_TECHNICAL_GUIDE.md) for a step-by-step guide written for non-technical users.
+
+## Dev Container
+
+This repo includes [`.devcontainer/devcontainer.json`](C:/Users/sri/adhoc-tasks/json-excel/.devcontainer/devcontainer.json). In VS Code, open the folder and use `Reopen in Container` to get Node and Python ready to use.
